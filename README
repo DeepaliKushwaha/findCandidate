@@ -1,3 +1,4 @@
 As the common property of any event is an abrupt change in time, we propose taking the intensity difference of every consecutive frame, and fire a candidate event for each large enough connected componnet in the difference image. We threshold the intensity difference image from 25% of ite brightest pixel value, filter out the components of the resultant binary image having an area smaller than 20 pixels, apply image opening with a 2-pixel disk,, and finally fill the holes. Each connected component in the resultant image is treated as an event candidate.
 
 MICCAI2015 - Cell Event Detection in Phase-Contrast Microscopy Sequences from Few Annotations
+Melih Kandemir, Christian Wojek, and Fred A.Hamprecht
